@@ -1,0 +1,19 @@
+.product-list-container {
+    display: grid;
+    // grid-template-columns: minmax(max-content, 10%) auto;
+    grid-template-columns: max-content auto;
+    grid-template-rows: 100%;
+    // grid-template-columns: 1fr 1fr;
+    // color: blue;
+    // position: relative;
+    // min-height: 100%;
+    // min-width: 100%;
+
+}
+
+.routes {
+    margin-top: calc(1rem + 1vh);
+    // position: relative;
+    // min-height: 100%;
+    // min-width: 100%;
+}

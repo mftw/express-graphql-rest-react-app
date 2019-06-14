@@ -1,0 +1,19 @@
+.productcard-presenter {
+    display: grid;
+    /* padding:  */
+    grid-template-columns: repeat(4, 1fr);
+    align-items: start;
+    align-content: start;
+    grid-gap: 1rem;
+    padding: 1rem;
+    min-height: 100%;
+    min-width: 100%;
+    @media screen and (max-width: 700px){
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.productcard-container {
+    opacity: 0;
+    transform: translateY(10%)
+}
